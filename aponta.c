@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(void){
 	// Declaração das variáveis normais
 	int var1 = 3;
 	int var2 = 1;
@@ -28,4 +28,6 @@ main(){
 	printf("ponteiro2 aponta para %p (valor %d)\n", ponteiro2, *ponteiro2);
 	printf("ponteiro3 aponta para %p (valor %d)\n", ponteiro3, *ponteiro3);
 	printf("ponteirosoma aponta para %p (valor %d)\n", ponteirosoma, *ponteirosoma);
+
+	return soma;
 }

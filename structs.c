@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(void){
 	// Definimos uma estrutura "conta", com variáveis:
 	// identidade, nome, saldo
 	struct conta {
@@ -21,5 +21,7 @@ main(){
 	printf("ID: %d\n", user1.identidade);
 	printf("Nome: %s\n", user1.nome);
 	printf("Saldo: %f\n", user1.saldo);
+
+	return 0;
 }
 
