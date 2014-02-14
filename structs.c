@@ -1,17 +1,25 @@
 #include <stdio.h>
 
 main(){
-	struct Box{
-		int x;
-		int y;
+	// Definimos uma estrutura "conta", com variáveis:
+	// identidade, nome, saldo
+	struct conta {
+		int identidade;
+		char* nome;
+		float saldo;
 	};
+	
+	// Criamos uma instância da estrutura "conta", com nome "user1"
+	struct conta user1;
 
-	struct Box Caixa;
+	// Atribuímos valores às variáveis de user1
+	user1.identidade = 1;
+	user1.nome = "John Doe";
+	user1.saldo = 5555.44;
 
-	Caixa.x = 4;
-	Caixa.y = 6;
-
-	printf("%d\n", Caixa.x);
-	printf("%d\n", Caixa.y);
-
+	// Imprime na tela
+	printf("ID: %d\n", user1.identidade);
+	printf("Nome: %s\n", user1.nome);
+	printf("Saldo: %f\n", user1.saldo);
 }
+
