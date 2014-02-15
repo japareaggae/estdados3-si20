@@ -1,3 +1,11 @@
+/*
+ * Uma estrutura (palavra-chave: 'struct') é um container de dados que armazena
+ * uma quantidade determinada de variáveis a serem utilizadas.
+ *
+ * Em termos Java: pense numa classe que não tem funções, apenas variáveis
+ * Em termos simples: pense numa variável que guarda outras variáveis dentro
+ */
+
 #include <stdio.h>
 
 int main(void){
