@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main(void){
+int main(int argc, char* argv[]){
 	// Definimos uma estrutura "conta", com variáveis:
 	// identidade, nome, saldo
 	struct conta {

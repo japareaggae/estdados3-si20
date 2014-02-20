@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main(void){
+int main(int argc, char* argv[]){
 
 	// Declaração da matriz
 	int matriz[3][3];

@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 
-int main(void){
+int main(int argc, char* argv[]){
 	// Declaração das variáveis normais
 	int var1 = 3;
 	int var2 = 1;
