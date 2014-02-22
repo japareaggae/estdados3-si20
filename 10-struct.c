@@ -15,8 +15,8 @@ int main(int argc, char* argv[]){
 		int identidade;
 		char* nome;
 		float saldo;
-	};
-	
+	}; // Perceba que existe um ponto e vírgula depois da chave!
+
 	// Criamos uma instância da estrutura "conta", com nome "user1"
 	struct conta user1;
 
